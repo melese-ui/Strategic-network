@@ -1,56 +1,54 @@
 # Strategic-network
-This repository provides Python code and theoretical analysis for modeling and evaluating eccentricity-based strategic networks—a class of social and economic networks where individual links are formed or maintained based on a balance between network benefits and maintenance costs.
-
 The project is grounded in the paper “Eccentricity-Based Strategic Network,” which investigates which network structures maximize overall welfare when individuals’ utility depends on the eccentricity (largest shortest path to any node), cost of maintaining links, and a decreasing benefit function.
 
-Key Features
-Mathematical Model:
-Extends classical distance-based network utility models to an eccentricity-based framework, introducing new efficiency criteria for various network topologies.
+# Key Features
+    Mathematical Model:
+    Extends classical distance-based network utility models to an eccentricity-based framework, introducing new efficiency criteria for various network topologies.
 
-Network Types Analyzed:
+# Network Types Analyzed:
 
-Star networks
+- Star networks
 
-Complete networks
+- Complete networks
 
-Double-node networks
+- Double-node networks
 
-Empty networks
+- Empty networks
 
-Efficiency Analysis:
+# Efficiency Analysis:
 Formal propositions, proofs, and Python implementations to compute and compare the total utility for different network structures under varying benefit/cost conditions.
 
-Main Concepts
+# Main Concepts
 Strategic Network Formation:
 Networks form as individuals weigh the benefits (modeled as a decreasing function of eccentricity) versus the cost of direct links.
 
-Eccentricity Metric:
+# Eccentricity Metric:
 Each node’s utility is calculated using its eccentricity, representing how far a node is from the most distant node in its component.
 
-Efficiency:
+# Efficiency:
 The optimal (efficient) network maximizes total societal utility for given costs and benefit functions.
 
 Code Included
-Calculation of degree, eccentricity, and shortest paths in graphs.
+- Calculation of degree, eccentricity, and shortest paths in graphs.
 
-Construction functions for star, complete, random, and empty networks.
+- Construction functions for star, complete, random, and empty networks.
 
-Computation of individual and total utility for a network.
+- Computation of individual and total utility for a network.
 
-Tools to compare efficiencies of different network forms as parameters vary.
+- Tools to compare efficiencies of different network forms as parameters vary.
 
-Usage
-This project is intended for researchers and students interested in network optimization, graph theory, economics, or social network analysis. The code allows you to:
+# Usage
+- This project is intended for researchers and students interested in network optimization, graph theory, economics, or social network analysis. The code allows you to:
 
-Construct and analyze custom networks.
+- Construct and analyze custom networks.
 
-Experiment with different cost/benefit settings.
+- Experiment with different cost/benefit settings.
 
-Reproduce theoretical results and extend them further.
+- Reproduce theoretical results and extend them further.
 
-Applications
-Social and economic network planning
+# Applications
+- Social and economic network planning
 
-Analysis of network resilience and efficiency
+- Analysis of network resilience and efficiency
 
-Theoretical exploration of incentives and link formation 
+- Theoretical exploration of incentives and link formation 
